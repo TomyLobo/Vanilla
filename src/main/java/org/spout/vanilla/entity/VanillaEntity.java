@@ -150,7 +150,7 @@ public abstract class VanillaEntity extends Controller {
 			return;
 		}
 		if (pos.getWorld().getBlock(pos).getBlockMaterial() == VanillaMaterials.WEB) {
-			velocity.scale(0.25F, 0.05F, 0.25F);
+			velocity.multiply(0.25F, 0.05F, 0.25F);
 		}
 	}
 
